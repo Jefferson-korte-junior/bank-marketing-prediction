@@ -92,7 +92,6 @@ O modelo recomendado para uso real e o LightGBM sem `duration`, com hiperparamet
 
 Cada run do experimento foi registrado no MLflow com parametros e metricas. Isso permite comparar versoes, reproduzir qualquer experimento anterior e saber exatamente qual modelo estava no ar em cada momento.
 
-![MLflow rastreando runs de experimento](https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png)
 
 No **Databricks**, o MLflow esta integrado nativamente na plataforma. Os runs aparecem automaticamente na UI de experimentos sem configuracao extra, e o modelo pode ser registrado no Model Registry com uma linha de codigo.
 
