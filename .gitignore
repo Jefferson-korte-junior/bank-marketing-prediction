@@ -1,0 +1,10 @@
+# dados publicos, nao versionar
+*.csv
+mlruns/
+mlflowDB/
+
+# arquivos temporarios e de ambiente
+.ipynb_checkpoints/
+__pycache__/
+.env
+.DS_Store
